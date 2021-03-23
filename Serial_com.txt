@@ -1,0 +1,68 @@
+Configuration	Serial_com
+STM32CubeMX 	5.5.0
+Date	05/05/2020
+MCU	STM32F767ZITx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+I2C1	I2C	I2C1_SCL	PB8
+I2C1	I2C	I2C1_SDA	PB9
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+TIM1	Internal Clock	TIM1_VS_ClockSourceINT	VP_TIM1_VS_ClockSourceINT
+USART3	Synchronous	USART3_CK	PB12
+USART3	Synchronous	USART3_RX	PD9
+USART3	Synchronous	USART3_TX	PD8
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+73	PB12	USART3_CK	
+77	PD8	USART3_TX	
+78	PD9	USART3_RX	
+139	PB8	I2C1_SCL	
+140	PB9	I2C1_SDA	
+PERIPHERALS	MODES	FUNCTIONS	PINS
+I2C1	I2C	I2C1_SCL	PB8
+I2C1	I2C	I2C1_SDA	PB9
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+TIM1	Internal Clock	TIM1_VS_ClockSourceINT	VP_TIM1_VS_ClockSourceINT
+USART3	Synchronous	USART3_CK	PB12
+USART3	Synchronous	USART3_RX	PD9
+USART3	Synchronous	USART3_TX	PD8
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+73	PB12	USART3_CK	
+77	PD8	USART3_TX	
+78	PD9	USART3_RX	
+139	PB8	I2C1_SCL	
+140	PB9	I2C1_SDA	
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : Serial_com
+Project Folder : C:\Users\Giorgio\STM32Cube\workspace\Serial_com
+Toolchain / IDE : STM32CubeIDE
+Firmware Package Name and Version : STM32Cube FW_F7 V1.15.0
+
+
+Code Generation Settings : 
+STM32Cube MCU packages and embedded software packs : Copy only the necessary library files
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : No
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : 
+
+
+
+
+
